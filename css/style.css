@@ -326,8 +326,13 @@ input::placeholder {
   background-color: var(--bgOrange);
 }
 
-.choose-sec.pattern.black::before {
+.choose-sec.pattern.black::before,
+.first.selling-products.pattern::before {
   background-color: var(--Whitebg);
+}
+
+.marquee-wrapper.pattern.orange::before {
+  background-color: var(--bgThemeBlack);
 }
 
 /* end */
@@ -469,7 +474,9 @@ footer .circle-icon {
   position: absolute;
   inset: 0;
   text-align: center;
-  place-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
   max-width: 60%;
 }
@@ -501,6 +508,8 @@ footer .circle-icon {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   background-color: var(--bgOrange);
+  max-width: fit-content;
+  margin: 0 auto;
 }
 
 .primary-btn.bg-blue {
