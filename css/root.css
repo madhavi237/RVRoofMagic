@@ -171,6 +171,10 @@ li {
   color: var(--whiteText);
 }
 
+.text-orange {
+  color: var(--TextOrange);
+}
+
 .text-theme-black {
   color: var(--TextThemeBlack);
 }
@@ -200,7 +204,7 @@ li {
 }
 
 .m-0 {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .mt-0 {
@@ -234,7 +238,7 @@ li {
 }
 
 .p-0 {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .pt-0 {
@@ -242,7 +246,7 @@ li {
 }
 
 .pb-0 {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 
 .pb-20 {
@@ -321,6 +325,7 @@ li {
 .position-relative {
   position: relative;
 }
+
 .d_block {
   display: block;
 }

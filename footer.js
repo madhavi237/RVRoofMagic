@@ -2,7 +2,7 @@ class Footer extends HTMLElement {
     constructor() {
         super();
         this.innerHTML = `
-            <footer class="pattern">
+            <footer class="pattern hide">
                 <div class="sec-padding pb-0">
                     <div class="container-fluid">
                         <div class="footer-container d-grid">
