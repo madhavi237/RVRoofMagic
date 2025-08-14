@@ -150,6 +150,11 @@ header .dropdown-menu li>.nav-link {
   -o-transition: all 0.3s ease;
 }
 
+input:focus-visible,
+textarea:focus-visible {
+  outline-color: var(--TextThemeBlack);
+}
+
 input,
 input::placeholder {
   font-family: "Barlow-Medium";
@@ -626,7 +631,7 @@ textarea::placeholder {
 
 .form-field:focus-visible,
 textarea:focus-visible {
-  outline: 1px solid;
+  outline: 1px solid var(--TextThemeBlack);
 }
 
 textarea {
