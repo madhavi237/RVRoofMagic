@@ -185,6 +185,7 @@ input::placeholder {
 .circle-icon {
   min-width: 50px;
   min-height: 50px;
+  max-width: max-content;
   border: 1px solid #202124;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -818,4 +819,222 @@ textarea {
   100% {
     transform: translateX(-50%);
   }
+}
+
+.main-swiper-slider {
+  padding: 0 0 120px;
+}
+
+.main-swiper-slider .swiper {
+  margin: 80px 0 0;
+  padding: 0 0 80px;
+}
+
+.before-after-img {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #202124;
+}
+
+.slider-aft,
+.slider-bef {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider-bef {
+  z-index: 2;
+}
+
+.handle-wrapper {
+  position: relative;
+  width: 8px;
+  height: 600px;
+  left: 50%;
+  z-index: 9;
+}
+
+.slider-bar {
+  width: 8px;
+  height: 100%;
+  position: absolute;
+  left: -2px;
+  background-color: var(--bgBlue);
+}
+
+.slider-handle {
+  position: relative;
+  top: 50%;
+  left: -20px;
+  z-index: 100;
+  opacity: 1;
+  cursor: ew-resize;
+}
+
+.bef_img,
+.aft_img {
+  max-width: max-content;
+  width: 100%;
+}
+
+.b_left_radius {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.b_right_radius {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.main-slide-item.d-grid {
+  gap: 50px;
+}
+
+.review-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating.circle-icon {
+  padding: 16px 20px;
+  border-radius: 50px;
+  gap: 10px;
+}
+
+.review-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.review-text.expanded {
+  display: block;
+}
+
+.read-more-link {
+  cursor: pointer;
+  color: var(--TextOrange);
+  font-size: 20px;
+  font-family: "Barlow-SemiBold";
+  padding: 14px 0 0;
+}
+
+.review-images .review_img {
+  /* max-width: 150px; */
+  height: 150px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.review-images {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+  margin: 18px 0 34px;
+}
+
+.user_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.flex-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.product_img {
+  width: 66px;
+  height: 66px;
+}
+
+.product-info .circle-icon {
+  background-color: #E4F0F4;
+  border: none;
+  padding: 8px;
+}
+
+.change-next.circle-icon {
+  background-color: var(--Whitebg);
+  border: 1px solid #202124;
+}
+
+.review-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* swiper slider */
+.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 20px;
+  left: 0;
+  width: fit-content;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 16px 0 0;
+}
+
+.swiper-pagination-bullet {
+  height: 8px;
+  width: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: width 0.4s ease;
+  -webkit-transition: width 0.4s ease;
+  -moz-transition: width 0.4s ease;
+  -ms-transition: width 0.4s ease;
+  -o-transition: width 0.4s ease;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 60px;
+  background-color: var(--bgThemeBlack);
+}
+
+.custom-button-prev,
+.custom-button-next {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 20px 26px;
+  gap: 10px;
+  cursor: pointer;
+  bottom: 0;
+  top: auto;
+  right: 0;
+  display: inline-flex;
+  position: absolute;
+}
+
+.custom-button-prev {
+  right: 7.5em;
 }
