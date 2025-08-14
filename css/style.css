@@ -1038,3 +1038,31 @@ textarea {
 .custom-button-prev {
   right: 7.5em;
 }
+
+/* about us page */
+.banner.hero-section {
+  height: 500px;
+}
+
+.banner .masked {
+  background: var(--bgSkyBlue);
+}
+
+.banner .bg-image::after {
+  content: '';
+  background-image: url(../images/banner-pattern.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: auto;
+  right: 0;
+  left: 0;
+  bottom: 40px;
+  height: 100%;
+  width: 100%;
+  background-position: bottom;
+}
+
+.banner .hero-section-heading {
+  padding: 0 60px;
+}

@@ -25,7 +25,7 @@ class Header extends HTMLElement {
                                 <li class="nav-item dropdown">
                                     <a href="browse-site" class="nav-link">Browse Site</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="abc" class="nav-link">About Us</a></li>
+                                        <li><a href="about-us" class="nav-link">About Us</a></li>
                                         <li><a href="abc" class="nav-link">Photo and Video Gallery</a></li>
                                         <li><a href="abc" class="nav-link">Testimonial</a></li>
                                     </ul>
