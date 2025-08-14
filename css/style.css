@@ -1207,3 +1207,19 @@ ul.stone-desc li {
 .about-us.two-column-sec .d-grid {
   grid-template-columns: repeat(2, 840px);
 }
+
+.application-tips .contact-img {
+  background-color: transparent;
+  border: none;
+}
+
+.who-we-are .d-grid> :first-child {
+  grid-row: 1;
+  grid-column: 2;
+  margin-left: 120px;
+}
+
+.who-we-are .d-grid> :last-child {
+  grid-row: 1;
+  grid-column: 1;
+}
