@@ -1217,6 +1217,7 @@ ul.stone-desc li {
   grid-row: 1;
   grid-column: 2;
   margin-left: 120px;
+  margin-right: 0;
 }
 
 .who-we-are .d-grid> :last-child {
