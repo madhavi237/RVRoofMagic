@@ -135,11 +135,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // ******************** Add Main slider js ******************* //
-
 const swiper = new Swiper('#MainSlider', {
     slidesPerView: 1,
     speed: 500,
     loop: true,
+    // effect: 'fade',
+    // fadeEffect: {
+    //     crossFade: true
+    // },
     // autoplay: {
     //     delay: 5000,
     //     disableOnInteraction: false
