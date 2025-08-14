@@ -283,6 +283,10 @@ li {
   text-transform: capitalize !important;
 }
 
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
 .b-radius-40 {
   border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -316,6 +320,10 @@ li {
 
 .justify_sp_between {
   justify-content: space-between;
+}
+
+.align_item_center {
+  align-items: center;
 }
 
 .text-center {

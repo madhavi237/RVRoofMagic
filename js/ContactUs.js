@@ -6,7 +6,7 @@ class ContactUs extends HTMLElement {
             <section class="contact-us bg-blue">
                 <div class="sec-padding overflow-hidden">
                     <div class="container-fluid">
-                        <div class="d-grid">
+                        <div class="d-grid align_item_center">
                             <div class="section-content">
                                 <div class="section-title">
                                     <h2 class="m-0">Have Questions? Contact Us</h2>
