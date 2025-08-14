@@ -139,6 +139,7 @@ const swiper = new Swiper('#MainSlider', {
     slidesPerView: 1,
     speed: 500,
     loop: true,
+    
     // effect: 'fade',
     // fadeEffect: {
     //     crossFade: true
