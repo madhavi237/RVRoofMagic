@@ -669,12 +669,10 @@ textarea {
   z-index: 2;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  padding: 0 0 0 5px;
+  padding: 20px 20px 20px 22px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 72px;
-  height: 72px;
   background-color: var(--bgOrange);
 }
 
@@ -935,6 +933,8 @@ textarea {
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
 }
+
+.review-images .review_img:last-child {}
 
 .review-images {
   display: grid;

@@ -139,11 +139,12 @@ const swiper = new Swiper('#MainSlider', {
     slidesPerView: 1,
     speed: 500,
     loop: true,
-    
-    // effect: 'fade',
-    // fadeEffect: {
-    //     crossFade: true
-    // },
+    allowTouchMove: false,
+
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
     // autoplay: {
     //     delay: 5000,
     //     disableOnInteraction: false
@@ -155,5 +156,19 @@ const swiper = new Swiper('#MainSlider', {
     navigation: {
         nextEl: '.custom-button-next',
         prevEl: '.custom-button-prev'
-    }
+    },
+    breakpoints: {
+        0: {
+
+        },
+
+        768: {
+            spaceBetween: 20,
+        },
+
+        991: {
+            spaceBetween: 30,
+        },
+    },
 });
+
