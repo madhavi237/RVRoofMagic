@@ -546,8 +546,8 @@ footer .circle-icon {
 }
 
 .low-voc-wrap {
-  place-self: center;
-  margin: 130px 0 80px;
+  margin: 130px auto 80px;
+  text-align: center;
 }
 
 .btn-pill {
@@ -559,10 +559,15 @@ footer .circle-icon {
 .contact-buttons {
   display: inline-grid;
   gap: 10px;
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
+  z-index: 99;
+  position: fixed;
   right: 30px;
+  transform: translateY(-30%);
+  bottom: 0;
+  -webkit-transform: translateY(-30%);
+  -moz-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  -o-transform: translateY(-30%);
 }
 
 .contact-img {
