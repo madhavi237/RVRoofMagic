@@ -1,7 +1,7 @@
 /* header */
 header {
   position: fixed;
-  z-index: 9;
+  z-index: 99;
   background-color: var(--Whitebg);
   right: 0;
   left: 0;
@@ -265,6 +265,10 @@ input::placeholder {
   margin-top: 130px;
 }
 
+.sec-mt-80 {
+  margin-top: 80px;
+}
+
 .sec-pb-120 {
   padding-bottom: 120px;
 }
@@ -324,29 +328,32 @@ input::placeholder {
   display: none;
 }
 
-.selling-products.pattern.black::before,
+.selling-products.pattern::before,
 .choose-sec.pattern.black::after,
 .success-numbers.pattern.orange::after,
-.photogallery .selling-products.pattern.black::after,
-.see-results.warranty-banner.pattern.orange::after {
+.photogallery .selling-products.pattern::after,
+.see-results.warranty-banner.pattern.orange::after,
+.testimonials .selling-products.pattern::after {
   background-color: var(--bgBlue);
 }
 
-.selling-products.pattern.black::after {
-  background-color: var(--bgOrange);
-}
-
-.two-column-sec.pattern.white::before {
+.two-column-sec.pattern.white::before,
+.selling-products.pattern::after {
   background-color: var(--bgOrange);
 }
 
 .choose-sec.pattern.black::before,
-.first.selling-products.pattern::before {
+.first.selling-products.pattern::before,
+.testimonials .see-results.warranty-banner.pattern::after {
   background-color: var(--Whitebg);
 }
 
 .marquee-wrapper.pattern.orange::before {
   background-color: var(--bgThemeBlack);
+}
+
+.patter_bg_blue {
+  background-color: var(--bgBlue);
 }
 
 /* end */
@@ -912,7 +919,7 @@ textarea {
 
 .bef_img,
 .aft_img {
-  max-width: max-content;
+  /* max-width: max-content; */
   width: 100%;
 }
 
@@ -1357,4 +1364,44 @@ ul.stone-desc li {
   -moz-transform: scaleX(-1) translateX(50%);
   -ms-transform: scaleX(-1) translateX(50%);
   -o-transform: scaleX(-1) translateX(50%);
+}
+
+.page-pagination button {
+  border: 1px solid var(--TextThemeBlack);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Whitebg);
+  font-size: 20px;
+  font-family: "Barlow-ExtraBold";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+
+.page-pagination button.active {
+  background-color: var(--bgSkyBlue);
+}
+
+#PagePagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.page-pagination button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+
+.tm-slider .row {
+  flex-direction: column;
+  row-gap: 120px;
 }
