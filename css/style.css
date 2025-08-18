@@ -1428,3 +1428,47 @@ ul.stone-desc li {
 .app-process .app-info-box {
   margin: 0 0 20px;
 }
+
+/* table */
+.table-container {
+  overflow-x: auto;
+  margin: 40px 0 0;
+  border: 1px solid #D2D3D3;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table thead {
+  background-color: var(--bgSkyBlue);
+}
+
+.responsive-table th {
+  padding: 22px 40px;
+}
+
+.responsive-table td {
+  padding: 14px 40px;
+}
+
+.responsive-table th, .responsive-table td {
+  font-size: 20px;
+  border: 1px solid #D2D3D3;
+}
+
+tfoot {
+  text-align: center;
+  background-color: var(--TextThemeBlack);
+  color: var(--BlueText);
+}
+
+tfoot .text32 {
+  font-size: 32px;
+  font-family: "Barlow-SemiBold";
+}
+
+.discover-sec .responsive-table td:not(:first-child) {
+  text-align: center;
+}
