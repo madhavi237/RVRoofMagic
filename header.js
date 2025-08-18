@@ -29,6 +29,8 @@ class Header extends HTMLElement {
                                         <li><a href="photo-gallery" class="nav-link">Photo and Video Gallery</a></li>
                                         <li><a href="application-process" class="nav-link">Application Process</a></li>
                                         <li><a href="testimonials" class="nav-link">Testimonials</a></li>
+                                        <li><a href="why-rv-roof-magic" class="nav-link">Why RV Roof Magic</a></li>
+
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
