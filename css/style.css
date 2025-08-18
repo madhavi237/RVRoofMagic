@@ -311,6 +311,11 @@ input::placeholder {
   background-image: url(../images/pattern-orange.svg);
 }
 
+.pattern.sky-blue::before,
+.pattern.sky-blue::after {
+  background-image: url(../images/pattern-skyblue.svg);
+}
+
 .pattern.blue::before,
 .pattern.blue::after {
   background-image: url(../images/pattern-blue.svg);
@@ -328,12 +333,17 @@ input::placeholder {
   display: none;
 }
 
+.pattern.b-hide::before {
+  display: none;
+}
+
 .selling-products.pattern::before,
 .choose-sec.pattern.black::after,
 .success-numbers.pattern.orange::after,
 .photogallery .selling-products.pattern::after,
 .see-results.warranty-banner.pattern.orange::after,
-.testimonials .selling-products.pattern::after {
+.testimonials .selling-products.pattern::after,
+.why-rv-roof .selling-products.pattern::after {
   background-color: var(--bgBlue);
 }
 
@@ -348,12 +358,17 @@ input::placeholder {
   background-color: var(--Whitebg);
 }
 
-.marquee-wrapper.pattern.orange::before {
+.marquee-wrapper.pattern.orange::before,
+.why-rv-roof .see-results.warranty-banner.pattern.orange::after {
   background-color: var(--bgThemeBlack);
 }
 
 .patter_bg_blue {
   background-color: var(--bgBlue);
+}
+
+.why-rv-roof .see-results.warranty-banner.pattern.orange::before {
+  background-color: var(--bgSkyBlue);
 }
 
 /* end */
@@ -1219,7 +1234,8 @@ ul.stone-desc li {
   -o-transform: translateY(-50%) rotate(45deg);
 }
 
-.about-us.two-column-sec .d-grid {
+.about-us.two-column-sec .d-grid,
+.about-coatings.two-column-sec .d-grid {
   grid-template-columns: repeat(2, 840px);
 }
 
@@ -1345,7 +1361,6 @@ ul.stone-desc li {
 
 .see-results p {
   margin: 40px 0;
-  font-size: 32px;
 }
 
 .see-results {
@@ -1404,4 +1419,12 @@ ul.stone-desc li {
 .tm-slider .row {
   flex-direction: column;
   row-gap: 120px;
+}
+
+.app-process .primary-btn {
+  margin: 40px 0 0;
+}
+
+.app-process .app-info-box {
+  margin: 0 0 20px;
 }

@@ -130,6 +130,10 @@ p,
   font-size: 18px;
 }
 
+.text32 {
+  font-size: 32px;
+}
+
 .font_black {
   font-family: "Barlow-Black";
 }
@@ -178,6 +182,10 @@ li {
 
 .text-theme-black {
   color: var(--TextThemeBlack);
+}
+
+.text-blue {
+  color: var(--BlueText);
 }
 
 .bg-black {
