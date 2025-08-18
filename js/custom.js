@@ -56,30 +56,34 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // video js
-if (document.querySelector('.video-container') != null) {
+if (document.querySelector('.video-wrapper') != null) {
     document.addEventListener("DOMContentLoaded", () => {
-        let player = document.getElementById("player"),
-            play = document.getElementById("play");
-        videoContainer = document.querySelector('.video-container');
+        const videoContainers = document.querySelectorAll(".video-container");
 
-        play.addEventListener("click", function () {
-            player.play();
-            player.parentElement.classList.add('playing');
-            player.parentElement.classList.remove('pause');
-        });
+        videoContainers.forEach(container => {
+            const player = container.querySelector(".player");
+            const playBtn = container.querySelector(".play");
 
-        player.addEventListener("click", function (e) {
-            if (!play.contains(e.target)) {
-                this.pause();
-                player.parentElement.classList.remove('playing');
-                player.parentElement.classList.add('pause');
-            }
-        });
-        // Pause on hover
-        videoContainer.addEventListener("mouseenter", function () {
-            player.pause();
-            player.parentElement.classList.remove('playing');
-            player.parentElement.classList.add('pause');
+            playBtn.addEventListener("click", () => {
+                player.play();
+                container.classList.add("playing");
+                container.classList.remove("pause");
+            });
+
+            player.addEventListener("click", (e) => {
+                if (!playBtn.contains(e.target)) {
+                    player.pause();
+                    container.classList.remove("playing");
+                    container.classList.add("pause");
+                }
+            });
+
+            // pause on hover
+            container.addEventListener("mouseenter", () => {
+                player.pause();
+                container.classList.remove("playing");
+                container.classList.add("pause");
+            });
         });
     });
 }
@@ -172,3 +176,21 @@ const swiper = new Swiper('#MainSlider', {
     },
 });
 
+
+// ******************** Custom Tabs js ******************* //
+document.addEventListener("DOMContentLoaded", () => {
+    const tabButtons = document.querySelectorAll(".tab-btn");
+    const tabPanels = document.querySelectorAll(".tab-panel");
+
+    tabButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            // remove active class
+            tabButtons.forEach(b => b.classList.remove("active"));
+            tabPanels.forEach(panel => panel.classList.remove("active"));
+
+            // add active class to clicked button
+            btn.classList.add("active");
+            document.getElementById(btn.dataset.tab).classList.add("active");
+        });
+    });
+});

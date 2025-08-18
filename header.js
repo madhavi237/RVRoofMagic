@@ -26,8 +26,9 @@ class Header extends HTMLElement {
                                     <a href="browse-site" class="nav-link">Browse Site</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="about-us" class="nav-link">About Us</a></li>
-                                        <li><a href="abc" class="nav-link">Photo and Video Gallery</a></li>
-                                        <li><a href="abc" class="nav-link">Testimonial</a></li>
+                                        <li><a href="photo-gallery" class="nav-link">Photo and Video Gallery</a></li>
+                                        <li><a href="application-process" class="nav-link">Application Process</a></li>
+                                        <li><a href="testimonials" class="nav-link">Testimonials</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -90,42 +91,46 @@ class Header extends HTMLElement {
         `;
         // Menu toggle jquery
         $(document).ready(function () {
-            const $menuToggle = $('.menu-toggle');
-            const $nav = $('.menu-wrapper');
+            const $menuToggle = $(".menu-toggle");
+            const $nav = $(".menu-wrapper");
             const $dropdownLinks = $(".nav-item.dropdown > a");
 
             // Toggle mobile menu
-            $menuToggle.on('click', function () {
-                $nav.toggleClass('open');
+            $menuToggle.on("click", function () {
+                $nav.toggleClass("open");
                 $menuToggle.toggleClass("show");
             });
 
-            // Dropdown 
-            $dropdownLinks.on('click', function (e) {
+            // Dropdown
+            $dropdownLinks.on("click", function (e) {
                 e.preventDefault();
                 e.stopPropagation();
 
                 const $parentDropdown = $(this).parent();
-                const $dropdownMenu = $parentDropdown.find('.dropdown-menu');
+                const $dropdownMenu = $parentDropdown.find(".dropdown-menu");
 
                 // Toggle current dropdown
-                if ($dropdownMenu.is(':visible')) {
+                if ($dropdownMenu.is(":visible")) {
                     // If open → close it
                     $dropdownMenu.slideUp(260);
-                    $parentDropdown.removeClass('view-dropdown');
+                    $parentDropdown.removeClass("view-dropdown");
                 } else {
                     // Close other dropdowns first
-                    $('.dropdown').find('.dropdown-menu').slideUp(260).parent().removeClass('view-dropdown');
+                    $(".dropdown")
+                        .find(".dropdown-menu")
+                        .slideUp(260)
+                        .parent()
+                        .removeClass("view-dropdown");
 
                     // Open current dropdown
                     $dropdownMenu.slideDown(260);
-                    $parentDropdown.addClass('view-dropdown');
+                    $parentDropdown.addClass("view-dropdown");
                 }
             });
             // Close dropdowns when clicking outside
-            $(document).on('click', function () {
-                $('.dropdown-menu').slideUp(260);
-                $('.dropdown').removeClass('view-dropdown');
+            $(document).on("click", function () {
+                $(".dropdown-menu").slideUp(260);
+                $(".dropdown").removeClass("view-dropdown");
             });
         });
         // Add the jQuery slideToggle in Menu
