@@ -358,3 +358,7 @@ li {
 .mt_cover {
   margin-top: 105px;
 }
+
+.w_100 {
+  width: 100%;
+}

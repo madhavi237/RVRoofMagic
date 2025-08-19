@@ -1174,7 +1174,8 @@ textarea {
 }
 
 .cross-linking .d-grid,
-.roof-prep .d-grid {
+.roof-prep .d-grid,
+.product-enhancements .d-grid {
   gap: 120px;
 }
 
@@ -1428,7 +1429,7 @@ ul.stone-desc li {
 }
 
 .app-process .app-info-box {
-  margin: 0 0 20px;
+  margin: 40px 0 20px;
 }
 
 /* table */
@@ -1474,4 +1475,44 @@ tfoot .text32 {
 
 .discover-sec .responsive-table td:not(:first-child) {
   text-align: center;
+}
+
+/* signup page */
+.signup .homepage .masked {
+  background-image: url(../images/signup-banner.webp);
+}
+
+.with-white footer.pattern::before {
+  background-image: url(../images/pattern-white.webp);
+}
+
+.landscap-product {
+  background-color: var(--Whitebg);
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 50px;
+}
+
+.product-enhancements .cross-linking-img img {
+  height: 500px;
+  width: 100%;
+}
+
+.product-enhancements ul li p {
+  color: var(--whiteText);
+}
+
+.product-enhancements .circle-list li::before,
+.product-enhancements .circle-list ul.stone-desc li::before {
+  border-color: var(--whiteText);
+  border-width: 1px;
+}
+
+.videos-sec .d-grid {
+  column-gap: 24px;
+  row-gap: 80px;
+}
+
+.landscap.video-container {
+  height: 900px;
 }
