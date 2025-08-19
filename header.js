@@ -30,6 +30,7 @@ class Header extends HTMLElement {
                                         <li><a href="application-process" class="nav-link">Application Process</a></li>
                                         <li><a href="testimonials" class="nav-link">Testimonials</a></li>
                                         <li><a href="why-rv-roof-magic" class="nav-link">Why RV Roof Magic</a></li>
+                                        <li><a href="sign-up" class="nav-link">Sign Up</a></li>
 
                                     </ul>
                                 </li>
