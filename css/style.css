@@ -344,7 +344,8 @@ input::placeholder {
 .see-results.warranty-banner.pattern.orange::after,
 .testimonials .selling-products.pattern::after,
 .why-rv-roof .selling-products.pattern::after,
-.rv-compare .selling-products.pattern::after {
+.rv-compare .selling-products.pattern::after,
+.technical-data .selling-products.pattern::after {
   background-color: var(--bgBlue);
 }
 
@@ -362,6 +363,7 @@ input::placeholder {
 .marquee-wrapper.pattern.orange::before,
 .why-rv-roof .see-results.warranty-banner.pattern.orange::after,
 .rv-compare .see-results.warranty-banner.pattern::after,
+.technical-data .see-results.warranty-banner.pattern::after,
 .proper-care .see-results.warranty-banner.pattern::before {
   background-color: var(--bgThemeBlack);
 }
@@ -640,7 +642,9 @@ footer .circle-icon {
   margin: 40px 0;
 }
 
-.contact-us .d-grid {
+.contact-us .d-grid,
+.tech-data .d-grid,
+.storage .d-grid {
   gap: 80px;
 }
 
@@ -1553,4 +1557,19 @@ img.this_page_img.right {
   right: -84px;
   bottom: 0;
   height: auto;
+}
+
+.tech-data .d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  row-gap: 20px;
+}
+
+.tech-data .d-flex li {
+  flex: 50%;
+}
+
+.tech-data-sheet h2 {
+  margin-bottom: 40px;
 }

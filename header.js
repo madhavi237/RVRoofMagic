@@ -38,6 +38,7 @@ class Header extends HTMLElement {
                                     <a href="abc" class="nav-link">Technical Data</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="proper-care" class="nav-link">Proper Care</a></li>
+                                        <li><a href="technical-data" class="nav-link">Technical Data</a></li>
                                         
                                     </ul>
                                 </li>
