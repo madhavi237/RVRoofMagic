@@ -343,7 +343,8 @@ input::placeholder {
 .photogallery .selling-products.pattern::after,
 .see-results.warranty-banner.pattern.orange::after,
 .testimonials .selling-products.pattern::after,
-.why-rv-roof .selling-products.pattern::after {
+.why-rv-roof .selling-products.pattern::after,
+.rv-compare .selling-products.pattern::after {
   background-color: var(--bgBlue);
 }
 
@@ -359,7 +360,8 @@ input::placeholder {
 }
 
 .marquee-wrapper.pattern.orange::before,
-.why-rv-roof .see-results.warranty-banner.pattern.orange::after {
+.why-rv-roof .see-results.warranty-banner.pattern.orange::after,
+.rv-compare .see-results.warranty-banner.pattern::after {
   background-color: var(--bgThemeBlack);
 }
 
@@ -1433,7 +1435,7 @@ ul.stone-desc li {
 .table-container {
   overflow-x: auto;
   margin: 40px 0 0;
-  border: 1px solid #D2D3D3;
+  outline: 2px solid #D2D3D3;
 }
 
 .responsive-table {
@@ -1455,7 +1457,7 @@ ul.stone-desc li {
 
 .responsive-table th, .responsive-table td {
   font-size: 20px;
-  border: 1px solid #D2D3D3;
+  outline: 1px solid #D2D3D3;
 }
 
 tfoot {
@@ -1467,6 +1469,7 @@ tfoot {
 tfoot .text32 {
   font-size: 32px;
   font-family: "Barlow-SemiBold";
+  padding: 20px 40px;
 }
 
 .discover-sec .responsive-table td:not(:first-child) {
