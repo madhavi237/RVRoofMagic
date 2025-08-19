@@ -606,12 +606,12 @@ footer .circle-icon {
   z-index: 99;
   position: fixed;
   right: 30px;
-  transform: translateY(-30%);
+  transform: translateY(-8em);
   bottom: 0;
-  -webkit-transform: translateY(-30%);
-  -moz-transform: translateY(-30%);
-  -ms-transform: translateY(-30%);
-  -o-transform: translateY(-30%);
+  -webkit-transform: translateY(-8em);
+  -moz-transform: translateY(-8em);
+  -ms-transform: translateY(-8em);
+  -o-transform: translateY(-8em);
 }
 
 .contact-img {
