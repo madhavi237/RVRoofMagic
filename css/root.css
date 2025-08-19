@@ -304,6 +304,10 @@ li {
   -o-border-radius: 40px;
 }
 
+.border-1 {
+  border: 1px solid;
+}
+
 /* container */
 .container-fluid {
   margin: 0 auto;

@@ -1000,8 +1000,6 @@ textarea {
   -o-border-radius: 25px;
 }
 
-.review-images .review_img:last-child {}
-
 .review-images {
   display: grid;
   gap: 20px;
@@ -1572,4 +1570,140 @@ img.this_page_img.right {
 
 .tech-data-sheet h2 {
   margin-bottom: 40px;
+}
+
+/* blog page */
+.blog-listing-wrapper {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.right-sidebar {
+  position: sticky;
+  top: 160px;
+  max-height: calc(100vh - 150px);
+  max-width: 23.1%;
+  width: 100%;
+  overflow-y: auto;
+  scrollbar-color: rgba(0, 0, 0, 0.2);
+}
+
+.inner-sidebar {
+  background-color: var(--bgSkyBlue);
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.right-sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.right-sidebar .category-list {
+  margin: 32px 0 0;
+}
+
+.right-sidebar .category-list h4 {
+  text-align: center;
+  font-family: "Barlow-SemiBold";
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.right-sidebar .category-list li {
+  margin-bottom: 12px;
+}
+
+.right-sidebar .category-list li.active {
+  background-color: var(--Whitebg);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.blogs-inner-wrap {
+  height: 100%;
+  overflow: visible;
+  column-gap: 24px;
+  flex: 1;
+  row-gap: 80px;
+}
+
+.b-date,
+.b-time {
+  font-size: 16px;
+  color: var(--BlueText);
+  text-transform: uppercase;
+}
+
+.blog-date-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-text {
+  padding: 20px 0 0;
+}
+
+.blog-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-content-overlay {
+  padding: 32px;
+  background-color: var(--Whitebg);
+  position: absolute;
+  bottom: 0;
+  margin: 1px;
+}
+
+.shop-box {
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+  margin: 40px 0 0;
+  padding: 0;
+}
+
+.shop-name {
+  background-color: var(--Whitebg);
+  padding: 20px 22px;
+  text-align: center;
+}
+
+.shop-image {
+  padding: 20px 0 20px 20px;
+}
+
+.blog-detail-banner {
+  padding: 40px 0 0;
+  height: 450px;
+}
+
+.blog-detail-banner .bg-image {
+  background: url(../images/blog-detail-banner.webp) center/100% no-repeat;
+  height: 100%;
+}
+
+.blog-detail-banner .bg-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.blog-detail-banner .hero-section-heading {
+  text-align: start;
+  max-width: 70%;
+  margin: 0;
+  width: 100%;
 }
