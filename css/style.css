@@ -361,7 +361,8 @@ input::placeholder {
 
 .marquee-wrapper.pattern.orange::before,
 .why-rv-roof .see-results.warranty-banner.pattern.orange::after,
-.rv-compare .see-results.warranty-banner.pattern::after {
+.rv-compare .see-results.warranty-banner.pattern::after,
+.proper-care .see-results.warranty-banner.pattern::before {
   background-color: var(--bgThemeBlack);
 }
 
@@ -1503,7 +1504,9 @@ tfoot .text32 {
 }
 
 .product-enhancements .circle-list li::before,
-.product-enhancements .circle-list ul.stone-desc li::before {
+.product-enhancements .circle-list ul.stone-desc li::before,
+.main-sec-this-page .bg-theme-black .circle-list li::before,
+.main-sec-this-page .bg-theme-black .circle-list ul.stone-desc li::before {
   border-color: var(--whiteText);
   border-width: 1px;
 }
@@ -1515,4 +1518,39 @@ tfoot .text32 {
 
 .landscap.video-container {
   height: 900px;
+}
+
+.this-page-image {
+  position: relative;
+  min-height: 400px;
+
+}
+
+.this-page-content h2 {
+  margin-bottom: 80px;
+}
+
+.two-col {
+  grid-template-columns: 5fr 7fr;
+  gap: 85px;
+}
+
+.two-col.reverse {
+  grid-template-columns: 7fr 5fr;
+}
+
+img.this_page_img {
+  overflow: visible;
+  position: absolute;
+  height: 100%;
+}
+
+img.this_page_img.left {
+  left: -84px;
+}
+
+img.this_page_img.right {
+  right: -84px;
+  bottom: 0;
+  height: auto;
 }
