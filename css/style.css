@@ -33,7 +33,7 @@ body.menu-open::before {
 }
 
 .navbar-branding {
-  place-content: center;
+  margin: 5px 0 0;
 }
 
 .navbar-brand img {
@@ -391,7 +391,7 @@ footer.pattern::before {
 }
 
 .footer-item-wrapper {
-  padding-left: 80px;
+  padding-left: 40px;
   display: flex;
   align-items: start;
   gap: 30px;
@@ -762,8 +762,9 @@ textarea {
 }
 
 .two-column-sec .d-grid {
-  grid-template-columns: repeat(2, 750px);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
+  gap: 240px;
 }
 
 .column-desc p {
@@ -1191,12 +1192,17 @@ textarea {
 
 .cross-linking-img img {
   height: 414px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .cross-linking-img {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   border: 1px solid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .devider {
@@ -1249,7 +1255,8 @@ ul.stone-desc li {
 
 .about-us.two-column-sec .d-grid,
 .about-coatings.two-column-sec .d-grid {
-  grid-template-columns: repeat(2, 840px);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 
 .application-tips .contact-img {
@@ -1328,6 +1335,10 @@ ul.stone-desc li {
   height: auto;
   width: 100%;
   object-fit: cover;
+}
+
+.drying-sec .cross-linking-img img {
+  height: 100%;
 }
 
 .gallery-tab-content .d-grid {
