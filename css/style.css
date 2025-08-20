@@ -984,6 +984,10 @@ textarea {
   display: block;
 }
 
+.b_name {
+  -webkit-line-clamp: 1;
+}
+
 .read-more-link {
   cursor: pointer;
   color: var(--TextOrange);
