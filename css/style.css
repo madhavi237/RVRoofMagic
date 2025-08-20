@@ -393,7 +393,7 @@ footer.pattern::before {
 .footer-item-wrapper {
   padding-left: 80px;
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 30px;
 }
 

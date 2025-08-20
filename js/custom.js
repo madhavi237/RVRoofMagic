@@ -3,6 +3,7 @@ const link = document.createElement('link');
 link.rel = 'icon';
 link.type = 'image/svg+xml';
 link.href = './images/favicon.svg';
+link.sizes = "32x32";
 document.head.appendChild(link);
 
 
