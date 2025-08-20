@@ -517,18 +517,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .homepage .mt_cover {
-        margin: 0;
-        padding-top: 80px;
-    }
-
-    .bg-curve {
-        bottom: -15px;
-    }
-
-    .hero-section-heading {
-        padding: 80px 0 0;
-    }
 
     /* comman */
     .sec-padding {
@@ -549,6 +537,18 @@
 }
 
 @media screen and (max-width: 991px) {
+    .homepage .hero-section-heading {
+        justify-content: start;
+        padding-top: 70px;
+    }
+
+    .awards img {
+        height: 96px;
+    }
+
+    .hero-section {
+        height: 420px;
+    }
 
     /* comman */
     .container-fluid {
