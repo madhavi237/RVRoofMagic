@@ -1,12 +1,39 @@
 @media screen and (max-width: 1850px) {
 
+    /* comman */
+    h5, .h5 {
+        font-size: 18px;
+    }
+
+    .contact-buttons {
+        transform: translateY(-4em);
+        -webkit-transform: translateY(-4em);
+        -moz-transform: translateY(-4em);
+        -ms-transform: translateY(-4em);
+        -o-transform: translateY(-4em);
+    }
+
     /* footer */
     .footer-heading {
         padding: 0 40px 0 0;
     }
+
+    /* header */
+    .hero-section {
+        height: 690px;
+    }
+
+    /* end */
+    .awards img {
+        height: 140px;
+    }
+
 }
 
 @media screen and (max-width: 1700px) {
+    .awards-wrap {
+        transform: translateY(60%);
+    }
 
     /* comman */
     h4, .h4 {
@@ -31,11 +58,11 @@
     }
 
     .contact-buttons {
-        transform: translateY(-5em);
-        -webkit-transform: translateY(-5em);
-        -moz-transform: translateY(-5em);
-        -ms-transform: translateY(-5em);
-        -o-transform: translateY(-5em);
+        transform: translateY(-3em);
+        -webkit-transform: translateY(-3em);
+        -moz-transform: translateY(-3em);
+        -ms-transform: translateY(-3em);
+        -o-transform: translateY(-3em);
     }
 
     /* footer */
@@ -79,6 +106,25 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .awards {
+        gap: 30px;
+    }
+
+    .awards img {
+        height: 130px;
+    }
+
+    .mt_cover {
+        margin-top: 84px;
+    }
+
+    .hero-section {
+        height: 590px;
+    }
+
+    .hero-section-heading p {
+        margin: 20px 0 30px;
+    }
 
     /* comman */
     h4, .h4 {
@@ -195,6 +241,14 @@
 
 @media screen and (max-width: 1450px) {
 
+    .awards-wrap {
+        transform: translateY(66%);
+        -webkit-transform: translateY(66%);
+        -moz-transform: translateY(66%);
+        -ms-transform: translateY(66%);
+        -o-transform: translateY(66%);
+    }
+
     /* comman */
     input, input::placeholder,
     .search-input {
@@ -212,6 +266,10 @@
     .pattern::before, .pattern::after {
         background-size: auto 42px;
         height: 42px;
+    }
+
+    h5, .h5 {
+        font-size: 16px;
     }
 
     h4, .h4 {
@@ -285,6 +343,9 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .hero-section {
+        height: 540px;
+    }
 
     /* comman */
     .primary-btn {
@@ -354,6 +415,13 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .hero-section {
+        height: 500px;
+    }
+
+    .awards img {
+        height: 115px;
+    }
 
     /* comman */
     .container {
@@ -449,6 +517,18 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .homepage .mt_cover {
+        margin: 0;
+        padding-top: 80px;
+    }
+
+    .bg-curve {
+        bottom: -15px;
+    }
+
+    .hero-section-heading {
+        padding: 80px 0 0;
+    }
 
     /* comman */
     .sec-padding {
