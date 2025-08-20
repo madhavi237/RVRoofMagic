@@ -646,7 +646,8 @@ footer .circle-icon {
 
 .contact-us .d-grid,
 .tech-data .d-grid,
-.storage .d-grid {
+.storage .d-grid,
+.have-questions .d-grid {
   gap: 80px;
 }
 
@@ -1495,6 +1496,10 @@ tfoot .text32 {
   background-image: url(../images/pattern-white.webp);
 }
 
+.with-orange footer.pattern::before {
+  background-image: url(../images/pattern-orange.svg);
+}
+
 .landscap-product {
   background-color: var(--Whitebg);
   display: flex;
@@ -1789,6 +1794,22 @@ img.this_page_img.right {
   padding: 0;
 }
 
-.blog .banner .hero-section-heading {
+.blog .banner .hero-section-heading,
+.contactus .banner .hero-section-heading {
   padding: 0 120px;
+}
+
+.our-location {
+  margin-left: auto;
+}
+
+.our-location iframe {
+  max-width: 790px;
+  max-height: 642px;
+  border: 1px solid #202124;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }

@@ -43,7 +43,7 @@ class Header extends HTMLElement {
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="abc" class="nav-link">Contact</a></li>
+                                <li class="nav-item"><a href="contact-us" class="nav-link">Contact</a></li>
                             </ul>
                         </div>
                         <div class="menu-right">
