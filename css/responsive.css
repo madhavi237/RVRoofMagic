@@ -61,6 +61,10 @@
 }
 
 @media screen and (max-width: 1700px) {
+    .tm-slider .row {
+        row-gap: 100px;
+    }
+
     .banner.hero-section {
         height: 450px;
     }
@@ -164,6 +168,18 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .warranty-banner .van-img.right {
+        inset: auto 0 16px auto;
+    }
+
+    .warranty-banner .van-img.left {
+        inset: auto 0 16px 0;
+    }
+
+    .see-results p {
+        margin: 30px 0;
+    }
+
     .tab-panel.g-video .video-container {
         height: 420px;
     }
@@ -676,6 +692,32 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .tm-slider .row {
+        row-gap: 80px;
+    }
+
+    .page-pagination button {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #PagePagination {
+        gap: 14px;
+    }
+
+    .warranty-banner .van-img.left {
+        inset: auto 0 9px 0;
+    }
+
+    .warranty-banner .van-img.right {
+        inset: auto 0 9px auto;
+    }
+
+    .see-results p {
+        margin: 20px 0;
+    }
+
     .tab-panel.g-video .video-container {
         height: 390px;
     }
@@ -919,6 +961,10 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .tm-slider .row {
+        row-gap: 60px;
+    }
+
     .tab-btn {
         padding: 12px;
     }
@@ -1163,6 +1209,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .page-pagination button {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .page-pagination button img {
+        height: 15px;
+    }
+
     .tab-panel.g-video .video-container {
         height: 330px;
     }
@@ -1256,6 +1312,14 @@
 }
 
 @media screen and (max-width: 991px) {
+    .tm-slider .row {
+        row-gap: 50px;
+    }
+
+    #PagePagination {
+        gap: 10px;
+    }
+
     .tab-panel.g-video .d-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1647,6 +1711,25 @@
 }
 
 @media screen and (max-width: 575px) {
+    .page-pagination button {
+        width: 34px;
+        height: 34px;
+        font-size: 13px;
+    }
+
+    .page-pagination button img {
+        height: 13px;
+    }
+
+    .btn-wrap {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .see-results p {
+        margin: 16px 0 18px;
+    }
+
     .img-label {
         padding: 5px 18px 6px;
     }
