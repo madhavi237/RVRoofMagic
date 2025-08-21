@@ -351,6 +351,10 @@ li {
   text-align: center;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .position-relative {
   position: relative;
 }

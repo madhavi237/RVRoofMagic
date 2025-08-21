@@ -168,6 +168,14 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .responsive-table th, .responsive-table td {
+        font-size: 18px;
+    }
+
+    .responsive-table th {
+        padding: 18px 40px;
+    }
+
     .app-info-box {
         padding: 16px;
         gap: 16px;
@@ -702,6 +710,22 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .responsive-table td {
+        padding: 12px 30px;
+    }
+
+    .responsive-table th {
+        padding: 18px 30px;
+    }
+
+    .table-container {
+        margin: 30px 0 0;
+    }
+
+    .responsive-table th, .responsive-table td {
+        font-size: 16px;
+    }
+
     .app-info-box img {
         height: 150px;
     }
@@ -988,6 +1012,14 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .responsive-table td {
+        padding: 10px 20px;
+    }
+
+    .responsive-table th {
+        padding: 18px 20px;
+    }
+
     .tm-slider .row {
         row-gap: 60px;
     }
@@ -1339,6 +1371,10 @@
 }
 
 @media screen and (max-width: 991px) {
+    .responsive-table th, .responsive-table td {
+        font-size: 13px;
+    }
+
     .about-coatings .column-content.right .column-desc {
         padding-top: 0;
     }
@@ -1759,6 +1795,15 @@
 }
 
 @media screen and (max-width: 575px) {
+    .responsive-table th {
+        padding: 14px 20px;
+        min-width: 200px;
+    }
+
+    .table-container::-webkit-scrollbar {
+        height: 5px;
+    }
+
     .app-process .app-info-box {
         flex-direction: column;
         align-items: start;
