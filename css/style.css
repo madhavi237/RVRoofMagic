@@ -1353,7 +1353,7 @@ ul.stone-desc li {
 
 .gallery-tab-content .cross-linking-img img,
 .drying-sec .cross-linking-img img {
-  height: auto;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
