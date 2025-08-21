@@ -168,6 +168,16 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .app-info-box {
+        padding: 16px;
+        gap: 16px;
+        margin: 40px 0 0;
+    }
+
+    .app-process .section-title p {
+        margin: 0 0 16px;
+    }
+
     .warranty-banner .van-img.right {
         inset: auto 0 16px auto;
     }
@@ -692,6 +702,23 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .app-info-box img {
+        height: 150px;
+    }
+
+    .app-info-box {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .app-process .app-info-box {
+        margin: 40px 0 10px;
+    }
+
+    .app-process .primary-btn {
+        margin: 30px 0 0;
+    }
+
     .tm-slider .row {
         row-gap: 80px;
     }
@@ -1312,6 +1339,22 @@
 }
 
 @media screen and (max-width: 991px) {
+    .about-coatings .column-content.right .column-desc {
+        padding-top: 0;
+    }
+
+    .about-coatings.two-column-sec .d-grid {
+        gap: 16px;
+    }
+
+    .app-process .app-info-box {
+        margin: 30px 0 10px !important;
+    }
+
+    .app-process .primary-btn {
+        align-items: center;
+    }
+
     .tm-slider .row {
         row-gap: 50px;
     }
@@ -1473,7 +1516,9 @@
     .contact-us .d-grid,
     .tech-data .d-grid,
     .storage .d-grid,
-    .have-questions .d-grid {
+    .have-questions .d-grid,
+    .about-us.two-column-sec .d-grid,
+    .about-coatings.two-column-sec .d-grid {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -1490,6 +1535,9 @@
         padding: 0 30px;
     }
 
+    .sec-pt-40 {
+        padding-top: 20px;
+    }
 
     p, .p,
     .footer_text {
@@ -1711,6 +1759,16 @@
 }
 
 @media screen and (max-width: 575px) {
+    .app-process .app-info-box {
+        flex-direction: column;
+        align-items: start;
+        padding: 20px 20px;
+    }
+
+    .flex-btn img {
+        height: 20px;
+    }
+
     .page-pagination button {
         width: 34px;
         height: 34px;
@@ -2005,6 +2063,14 @@
 }
 
 @media screen and (max-width: 380px) {
+    .app-process .app-info-box {
+        padding: 20px 16px;
+    }
+
+    .one-application h4 {
+        margin-top: 16px;
+    }
+
     .img-label {
         font-size: 14px;
     }
