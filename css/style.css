@@ -1212,7 +1212,8 @@ textarea {
 }
 
 .cross-linking-img img {
-  height: 414px;
+  /* height: 414px; */
+  height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;

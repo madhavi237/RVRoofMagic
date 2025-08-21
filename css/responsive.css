@@ -61,6 +61,10 @@
 }
 
 @media screen and (max-width: 1700px) {
+    .cross-linking .d-grid, .roof-prep .d-grid, .product-enhancements .d-grid {
+        gap: 100px;
+    }
+
     .tm-slider .row {
         row-gap: 100px;
     }
@@ -168,6 +172,35 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .success-numbers .our-num-item img {
+        min-height: 50px;
+        min-width: 50px;
+    }
+
+    .cross-linking .d-grid, .roof-prep .d-grid, .product-enhancements .d-grid {
+        gap: 80px;
+    }
+
+    .aboutus .section-title p {
+        margin: 20px 0;
+    }
+
+    .corner-logo img {
+        height: 30px;
+    }
+
+    .corner-logo {
+        padding: 18px 18px 14px;
+    }
+
+    .application-tips .contact-img img {
+        height: 550px;
+    }
+
+    .who-we-are .d-grid> :first-child {
+        margin-left: 80px;
+    }
+
     .responsive-table th, .responsive-table td {
         font-size: 18px;
     }
@@ -432,7 +465,7 @@
     }
 
     .sec-pt-80 {
-        padding-bottom: 60px;
+        padding-top: 60px;
     }
 
     .sec-padding {
@@ -710,6 +743,40 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .success-numbers .our-num-item img {
+        min-height: 30px;
+        min-width: 30px;
+    }
+
+    .our-num-item {
+        gap: 14px;
+    }
+
+    .our-num-item .circle-icon {
+        height: 70px;
+        width: 70px;
+    }
+
+    .success-numbers .d-grid {
+        gap: 15px;
+    }
+
+    .cross-linking .d-grid, .roof-prep .d-grid, .product-enhancements .d-grid {
+        gap: 60px;
+    }
+
+    .corner-logo img {
+        height: 22px;
+    }
+
+    .content-image-sec .d-grid {
+        gap: 60px;
+    }
+
+    .application-tips .contact-img img {
+        height: 430px;
+    }
+
     .responsive-table td {
         padding: 12px 30px;
     }
@@ -1012,6 +1079,41 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .success-numbers .d-grid {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 24px;
+        column-gap: 16px;
+    }
+
+    .our-num-item .circle-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .cross-linking .d-grid, .roof-prep .d-grid, .product-enhancements .d-grid {
+        gap: 40px;
+    }
+
+    .aboutus .cross-linking .d-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aboutus .cross-linking-img img {
+        height: 350px;
+    }
+
+    .aboutus .cross-linking-img .corner-logo img {
+        height: 22px;
+    }
+
+    .corner-logo {
+        border-top-right-radius: 16px;
+    }
+
+    .who-we-are .d-grid> :first-child {
+        margin-left: 40px;
+    }
+
     .responsive-table td {
         padding: 10px 20px;
     }
@@ -1152,7 +1254,7 @@
     }
 
     .sec-pt-80 {
-        padding-bottom: 40px;
+        padding-top: 40px;
     }
 
     .container {
@@ -1268,6 +1370,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .cross-linking .d-grid, .roof-prep .d-grid, .product-enhancements .d-grid {
+        gap: 30px;
+    }
+
     .page-pagination button {
         width: 40px;
         height: 40px;
@@ -1371,6 +1477,37 @@
 }
 
 @media screen and (max-width: 991px) {
+    .success-numbers .d-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .aboutus .cross-linking-img img {
+        height: 100%;
+    }
+
+    .application-tips .section-title p {
+        margin-bottom: 0;
+    }
+
+    .content-image-sec .d-grid {
+        gap: 40px;
+    }
+
+    .application-tips .contact-img img {
+        height: 400px;
+    }
+
+    .who-we-are .d-grid> :first-child {
+        grid-column: 1;
+        margin-left: 0px;
+        margin-bottom: 60px;
+    }
+
+    .who-we-are .d-grid> :last-child {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
     .responsive-table th, .responsive-table td {
         font-size: 13px;
     }
@@ -1554,7 +1691,8 @@
     .storage .d-grid,
     .have-questions .d-grid,
     .about-us.two-column-sec .d-grid,
-    .about-coatings.two-column-sec .d-grid {
+    .about-coatings.two-column-sec .d-grid,
+    .content-image-sec .d-grid {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -1795,6 +1933,34 @@
 }
 
 @media screen and (max-width: 575px) {
+    .success-numbers .d-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .our-num-item .circle-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .success-numbers .our-num-item img {
+        min-height: 26px;
+        min-width: 26px;
+    }
+
+    .cross-linking-img .primary-btn {
+        bottom: 12px;
+        right: 12px;
+        left: 12px;
+    }
+
+    .aboutus .cross-linking-img img {
+        height: 215px;
+    }
+
+    .application-tips .contact-img img {
+        height: auto;
+    }
+
     .responsive-table th {
         padding: 14px 20px;
         min-width: 200px;
@@ -2040,7 +2206,7 @@
     }
 
     .sec-pt-80 {
-        padding-bottom: 30px;
+        padding-top: 30px;
     }
 
     .container {
@@ -2108,6 +2274,14 @@
 }
 
 @media screen and (max-width: 380px) {
+    .success-numbers .d-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aboutus .cross-linking-img img {
+        height: 180px;
+    }
+
     .app-process .app-info-box {
         padding: 20px 16px;
     }
