@@ -172,6 +172,11 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .our-location iframe {
+        max-height: 520px;
+        border-radius: 30px;
+    }
+
     .success-numbers .our-num-item img {
         min-height: 50px;
         min-width: 50px;
@@ -743,6 +748,10 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .our-location iframe {
+        max-height: 460px;
+    }
+
     .success-numbers .our-num-item img {
         min-height: 30px;
         min-width: 30px;
@@ -1079,6 +1088,10 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .blog .banner .hero-section-heading, .contactus .banner .hero-section-heading {
+        padding: 0 80px;
+    }
+
     .success-numbers .d-grid {
         grid-template-columns: repeat(4, 1fr);
         row-gap: 24px;
@@ -1370,6 +1383,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .have-questions .d-grid.align_item_center {
+        align-items: start;
+        gap: 0;
+    }
+
+    .our-location iframe {
+        max-height: 420px;
+        border-radius: 20px;
+    }
+
     .cross-linking .d-grid, .roof-prep .d-grid, .product-enhancements .d-grid {
         gap: 30px;
     }
@@ -1477,6 +1500,10 @@
 }
 
 @media screen and (max-width: 991px) {
+    .our-location iframe {
+        max-height: 400px;
+    }
+
     .success-numbers .d-grid {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1825,6 +1852,14 @@
 }
 
 @media screen and (max-width: 767px) {
+    .blog .banner .hero-section-heading, .contactus .banner .hero-section-heading {
+        padding: 0 40px;
+    }
+
+    .our-location iframe {
+        max-height: 300px;
+    }
+
     .gallery-tab-content .d-grid {
         row-gap: 24px;
     }
@@ -1933,6 +1968,20 @@
 }
 
 @media screen and (max-width: 575px) {
+
+    .have-questions .section-title,
+    .have-questions .contact-form {
+        text-align: center;
+    }
+
+    .blog .banner .hero-section-heading, .contactus .banner .hero-section-heading {
+        padding: 0 16px;
+    }
+
+    .our-location iframe {
+        max-height: 250px;
+    }
+
     .success-numbers .d-grid {
         grid-template-columns: repeat(2, 1fr);
     }
