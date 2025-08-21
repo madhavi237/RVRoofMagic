@@ -1,4 +1,38 @@
 @media screen and (max-width: 1850px) {
+    .two-column-sec .d-grid {
+        gap: 230px;
+    }
+
+    .warranty-banner .van-img {
+        max-width: 400px;
+    }
+
+    .warranty-banner .warranty-img {
+        max-width: 240px;
+    }
+
+    .apply-item img {
+        max-width: 80px;
+    }
+
+    .rating.circle-icon {
+        padding: 12px 16px;
+        gap: 10px;
+    }
+
+    .awards img {
+        height: 140px;
+    }
+
+    .user_img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .product_img {
+        width: 56px;
+        height: 56px;
+    }
 
     /* comman */
     h5, .h5 {
@@ -24,18 +58,38 @@
     }
 
     /* end */
-    .awards img {
-        height: 140px;
-    }
-
 }
 
 @media screen and (max-width: 1700px) {
+    .choose-sec .section-title {
+        margin-right: 80px;
+    }
+
+    .column-desc p {
+        margin: 0 0 16px;
+    }
+
+    .marquee-content span {
+        padding: 0 50px;
+    }
+
     .awards-wrap {
         transform: translateY(60%);
+        -webkit-transform: translateY(60%);
+        -moz-transform: translateY(60%);
+        -ms-transform: translateY(60%);
+        -o-transform: translateY(60%);
     }
 
     /* comman */
+    .column-content.left .column-desc p {
+        font-size: 26px;
+    }
+
+    .text32, .marquee-content span {
+        font-size: 26px;
+    }
+
     h4, .h4 {
         font-size: 22px;
     }
@@ -106,6 +160,166 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .form-field, textarea {
+        padding: 18px 20px;
+        font-size: 14px;
+    }
+
+    .form-field::placeholder,
+    textarea::placeholder {
+        font-size: 14px;
+    }
+
+    form .form-grid.d-grid {
+        row-gap: 24px;
+        column-gap: 12px;
+        padding: 0 0 30px;
+    }
+
+    .contact-us .d-grid, .tech-data .d-grid, .storage .d-grid, .have-questions .d-grid {
+        gap: 60px;
+    }
+
+    .contact-img img {
+        height: 400px;
+    }
+
+    .contact-img {
+        max-height: 550px;
+    }
+
+    .video-container {
+        height: 560px;
+    }
+
+    .section-title p {
+        margin: 30px 0;
+    }
+
+    .counter-sec.d-grid {
+        gap: 70px;
+        padding: 30px 0 0;
+    }
+
+    .circle-list li {
+        padding-left: 20px;
+    }
+
+    .circle-list li::before {
+        top: 6px;
+    }
+
+    .column-desc {
+        padding: 30px 0 0;
+    }
+
+    .two-column-sec .d-grid {
+        gap: 210px;
+    }
+
+    .warranty-content {
+        max-width: 80%;
+    }
+
+    .warranty-banner .van-img {
+        inset: auto 64px 0 auto;
+    }
+
+    .warranty-banner .warranty-img {
+        max-width: 220px;
+        inset: auto auto -74px 60px;
+    }
+
+    .product-usecases .d-grid {
+        gap: 20px;
+    }
+
+    .product-usecases .primary-btn {
+        margin: 30px 0 0;
+    }
+
+    .usecase-item {
+        padding: 18px 16px;
+    }
+
+    .marquee-content span {
+        padding: 0 40px;
+    }
+
+    .mini-dot {
+        width: 16px;
+        height: 16px;
+    }
+
+    .apply-item img {
+        min-width: 70px;
+        min-height: 70px;
+    }
+
+    .apply-item .circle-icon {
+        padding: 22px;
+        margin-bottom: 30px;
+    }
+
+    .main-swiper-slider {
+        padding: 0 0 80px;
+    }
+
+    .time,
+    .rating span {
+        font-size: 16px;
+    }
+
+    .before-after-img,
+    .handle-wrapper {
+        height: 530px;
+    }
+
+    .custom-button-prev {
+        right: 7em;
+    }
+
+    .custom-button-prev, .custom-button-next {
+        padding: 16px 22px;
+    }
+
+    .main-swiper-slider .swiper {
+        padding: 0 0 60px;
+        margin: 60px 0 0;
+    }
+
+    .low-voc-version {
+        padding: 30px 40px;
+    }
+
+    .review-images {
+        gap: 16px;
+        margin: 18px 0 30px;
+    }
+
+    .circle-icon .product_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .user_img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .user-text {
+        gap: 4px;
+    }
+
+    .read-more-link {
+        font-size: 18px;
+        padding: 10px 0 0;
+    }
+
+    .review-images .review_img {
+        border-radius: 20px;
+    }
+
     .awards {
         gap: 30px;
     }
@@ -127,8 +341,36 @@
     }
 
     /* comman */
+    .column-content.left .column-desc p {
+        font-size: 24px;
+    }
+
+    .text32, .marquee-content span {
+        font-size: 24px;
+    }
+
+    h3, .h3 {
+        font-size: 36px;
+    }
+
     h4, .h4 {
         font-size: 20px;
+    }
+
+    .mt-20 {
+        margin-top: 16px !important;
+    }
+
+    .mb-20 {
+        margin-bottom: 16px !important;
+    }
+
+    .sec-pb-80 {
+        padding-bottom: 60px;
+    }
+
+    .sec-pt-80 {
+        padding-bottom: 60px;
     }
 
     .sec-padding {
@@ -240,6 +482,50 @@
 }
 
 @media screen and (max-width: 1450px) {
+    form .form-grid.d-grid {
+        row-gap: 18px;
+        column-gap: 8px;
+        padding: 0 0 20px;
+    }
+
+    .contact-img img {
+        height: 375px;
+    }
+
+    .video-container {
+        height: 540px;
+    }
+
+    .counter-sec.d-grid {
+        gap: 55px;
+        padding: 20px 0 0;
+    }
+
+    .warranty-banner .van-img {
+        max-width: 356px;
+    }
+
+    .apply-item .circle-icon {
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+
+    .apply-item {
+        padding: 0 24px;
+    }
+
+    .apply-item img {
+        min-width: 55px;
+        min-height: 55px;
+    }
+
+    .main-swiper-slider {
+        padding: 0 0 60px;
+    }
+
+    .before-after-img, .handle-wrapper {
+        height: 500px;
+    }
 
     .awards-wrap {
         transform: translateY(66%);
@@ -343,11 +629,149 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .contact-us .d-grid, .tech-data .d-grid, .storage .d-grid, .have-questions .d-grid {
+        gap: 40px;
+    }
+
+    textarea {
+        border-radius: 16px;
+    }
+
+    .form-field, textarea {
+        padding: 15px 20px;
+    }
+
+    .contact-img img {
+        height: 340px;
+    }
+
+    .counter-item:last-child {
+        padding-right: 0;
+    }
+
+    .counter-sec.d-grid {
+        padding: 0;
+    }
+
+    .video-container {
+        height: 450px;
+    }
+
+    .two-column-sec .d-grid {
+        gap: 150px;
+    }
+
+    .warranty-banner .warranty-img {
+        max-width: 180px;
+        inset: auto auto -60px 60px;
+    }
+
+    .warranty-banner .van-img {
+        max-width: 282px;
+    }
+
+    .usecase-item {
+        padding: 14px 16px;
+    }
+
+    .mini-dot {
+        width: 12px;
+        height: 12px;
+    }
+
+    .marquee-content span {
+        padding: 0 30px;
+    }
+
+    .apply-item img {
+        min-width: 46px;
+        min-height: 46px;
+    }
+
+    .apply-item {
+        padding: 0 15px;
+    }
+
+    .main-slide-content .review-bottom h4 {
+        font-size: 16px;
+    }
+
+    .main-slide-item.d-grid {
+        gap: 40px;
+    }
+
+    .low-voc-wrap {
+        margin: 130px auto 60px;
+    }
+
+    .low-voc-version {
+        padding: 24px 40px;
+    }
+
+    .custom-button-prev span, .custom-button-next span {
+        font-size: 16px;
+    }
+
+    .custom-button-prev, .custom-button-next {
+        gap: 6px;
+    }
+
+    .custom-button-prev {
+        right: 6.5em;
+    }
+
+    .user-text {
+        gap: 2px;
+    }
+
+    .review-images {
+        margin: 14px 0 24px;
+    }
+
+    .rating.circle-icon {
+        padding: 10px 16px;
+        gap: 8px;
+    }
+
+    .flex-info {
+        gap: 10px;
+    }
+
+    .before-after-img, .handle-wrapper {
+        height: 460px;
+    }
+
+    .slider-bar {
+        width: 7px;
+    }
+
+    .user_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .circle-icon .product_img {
+        width: 40px;
+        height: 40px;
+    }
+
     .hero-section {
         height: 540px;
     }
 
     /* comman */
+    .column-content.left .column-desc p {
+        font-size: 22px;
+    }
+
+    .text32, .marquee-content span {
+        font-size: 20px;
+    }
+
+    h3, .h3 {
+        font-size: 30px;
+    }
+
     .primary-btn {
         font-size: 14px;
     }
@@ -415,6 +839,95 @@
 }
 
 @media screen and (max-width: 1199px) {
+    form .form-grid.d-grid {
+        row-gap: 14px;
+    }
+
+    .counter-item h2 {
+        margin-bottom: 14px;
+    }
+
+    .choose-sec .section-title {
+        margin-right: 40px;
+    }
+
+    .counter-item sub {
+        padding-top: 8px;
+    }
+
+    .video-container {
+        height: 430px;
+    }
+
+    .column-desc p {
+        margin: 0 0 12px;
+    }
+
+    .circle-list li::before {
+        width: 4px;
+        height: 4px;
+    }
+
+    .circle-list li {
+        padding-left: 15px;
+    }
+
+    .warranty-banner .warranty-img {
+        max-width: 160px;
+        inset: auto auto -50px 32px;
+    }
+
+    .warranty-banner .van-img {
+        max-width: 265px;
+        inset: auto 50px 0 auto;
+    }
+
+    .product-usecases .d-grid {
+        gap: 16px;
+    }
+
+    .apply-item {
+        padding: 0;
+    }
+
+    .apply-item img {
+        min-width: 38px;
+        min-height: 38px;
+    }
+
+    .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 12px 0 0;
+    }
+
+    .main-swiper-slider .swiper {
+        margin: 50px 0 0;
+    }
+
+    .main-slide-content .review-bottom p {
+        font-size: 14px;
+    }
+
+    .review-images .review_img {
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+
+    .read-more-link {
+        font-size: 16px;
+        padding: 6px 0 0;
+    }
+
+    .review-bottom {
+        gap: 4px;
+    }
+
+    .main-slide-item.d-grid {
+        gap: 30px;
+    }
+
     .hero-section {
         height: 500px;
     }
@@ -424,6 +937,18 @@
     }
 
     /* comman */
+    h3, .h3 {
+        font-size: 26px;
+    }
+
+    .sec-pb-80 {
+        padding-bottom: 40px;
+    }
+
+    .sec-pt-80 {
+        padding-bottom: 40px;
+    }
+
     .container {
         max-width: 100%;
         padding: 0 30px;
@@ -517,8 +1042,69 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .counter-sec.d-grid {
+        gap: 20px;
+    }
+
+    .two-column-sec .d-grid {
+        gap: 80px;
+    }
+
+    .product-usecases .d-grid {
+        gap: 12px;
+    }
+
+    .how-to-apply .d-grid {
+        gap: 20px;
+    }
+
+    .low-voc-version {
+        padding: 22px 40px;
+        font-size: 16px;
+    }
+
+    .custom-button-prev {
+        right: 5.8em;
+    }
+
+    .custom-button-prev, .custom-button-next {
+        padding: 14px 16px;
+    }
+
+    .before-after-img, .handle-wrapper {
+        height: 440px;
+    }
+
+    .review-images {
+        margin: 12px 0 20px;
+    }
+
+    .user_img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .circle-icon .product_img {
+        width: 33px;
+        height: 33px;
+    }
+
+    .review-bottom {
+        gap: 10px;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .flex-info {
+        gap: 12px;
+    }
 
     /* comman */
+
+    .column-content.left .column-desc p {
+        font-size: 20px;
+    }
+
     .sec-padding {
         padding: 50px 0;
     }
@@ -537,7 +1123,114 @@
 }
 
 @media screen and (max-width: 991px) {
-    .homepage .hero-section-heading {
+    .contact-us .d-grid, .tech-data .d-grid, .storage .d-grid, .have-questions .d-grid {
+        gap: 30px;
+    }
+
+    .contact-img img {
+        height: 300px;
+    }
+
+    form .form-grid.d-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .choose-sec .section-title {
+        margin-right: 0;
+    }
+
+    .two-column-sec .d-grid {
+        gap: 40px;
+    }
+
+    .column-desc {
+        padding: 20px 0 0;
+    }
+
+    .warranty-banner .warranty-img {
+        max-width: 124px;
+        inset: auto auto -44px 32px;
+    }
+
+    .warranty-banner .van-img {
+        max-width: 200px;
+        inset: auto 26px 0 auto;
+    }
+
+    .usecase-item {
+        padding: 12px 14px;
+    }
+
+    .how-to-apply .d-grid {
+        gap: 32px;
+    }
+
+    .custom-button-prev {
+        right: 5em;
+    }
+
+    .custom-button-prev, .custom-button-next {
+        gap: 4px;
+        padding: 12px 14px;
+    }
+
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        width: 40px;
+    }
+
+    .swiper-pagination-bullet {
+        height: 6px;
+        width: 22px;
+        border-radius: 6px;
+    }
+
+    .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 10px 0 0;
+    }
+
+    .custom-button-prev span, .custom-button-next span {
+        font-size: 14px;
+    }
+
+    .review-bottom {
+        gap: 16px;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .review-images {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .rating.circle-icon {
+        gap: 5px;
+    }
+
+    .time, .rating span {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .rating.circle-icon img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .before-after-img, .handle-wrapper {
+        height: 420px;
+    }
+
+    .low-voc-version {
+        padding: 18px 34px;
+        font-size: 14px;
+    }
+
+    .low-voc-wrap {
+        margin: 100px auto 50px;
+        padding: 0 16px;
+    }
+
+    .hero-section-heading {
         justify-content: start;
         padding-top: 70px;
     }
@@ -551,9 +1244,30 @@
     }
 
     /* comman */
+    .main-slide-item.d-grid,
+    .how-to-apply .d-grid,
+    .two-column-sec .d-grid,
+    .choose-sec .d-grid,
+    .contact-us .d-grid,
+    .tech-data .d-grid,
+    .storage .d-grid,
+    .have-questions .d-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product-usecases .d-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .counter-sec.d-grid {
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 35px;
+    }
+
     .container-fluid {
         padding: 0 30px;
     }
+
 
     p, .p,
     .footer_text {
@@ -667,8 +1381,41 @@
 }
 
 @media screen and (max-width: 767px) {
+    .warranty-content {
+        max-width: 90%;
+    }
+
+    .warranty-banner .warranty-img {
+        max-width: 100px;
+        inset: auto auto -50px 24px;
+    }
+
+    .warranty-banner .van-img {
+        max-width: 175px;
+        inset: auto 24px 0 auto;
+    }
+
+    .product-usecases .d-grid {
+        gap: 8px;
+    }
+
+    .hero-section {
+        height: 470px;
+    }
+
+    .review-bottom {
+        flex-direction: column;
+    }
+
+    .before-after-img, .handle-wrapper {
+        height: 340px;
+    }
 
     /* comman */
+    .mt-20 {
+        margin-top: 12px !important;
+    }
+
     .pattern::before, .pattern::after {
         background-size: auto 34px;
         height: 34px;
@@ -717,14 +1464,200 @@
 }
 
 @media screen and (max-width: 575px) {
+    .contact-img img {
+        height: 200px;
+        padding: 10px 0 0;
+    }
+
+    .contact-img .primary-btn {
+        margin: 20px auto 30px;
+    }
+
+    textarea {
+        border-radius: 12px;
+    }
+
+    form .form-grid.d-grid {
+        row-gap: 12px;
+    }
+
+    .counter-item h2 {
+        margin-bottom: 6px;
+    }
+
+    .section-title p {
+        margin: 20px 0;
+    }
+
+    .video-container {
+        height: 300px;
+    }
+
+    .warranty-banner .van-img {
+        display: none;
+    }
+
+    .warranty-content h2 {
+        margin-top: 0;
+    }
+
+    .warranty-content {
+        max-width: 100%;
+    }
+
+    .usecase-item {
+        padding: 10px 14px;
+    }
+
+    .marquee-content span {
+        padding: 0 20px;
+    }
+
+    .how-to-apply .d-grid {
+        gap: 26px;
+    }
+
+    .main-swiper-slider {
+        padding: 0 0 40px;
+    }
+
+    .custom-button-prev {
+        right: 4.5em;
+    }
+
+    .custom-button-prev, .custom-button-next {
+        gap: 4px;
+        padding: 10px 12px;
+    }
+
+    .custom-button-next.circle-icon img,
+    .custom-button-prev.circle-icon img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .main-swiper-slider .swiper-pagination {
+        display: none;
+    }
+
+    .main-slide-content .review-bottom h4 {
+        font-size: 15px;
+    }
+
+    .main-slide-content .review-bottom p {
+        font-size: 12px;
+    }
+
+    .user_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .circle-icon .product_img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .flex-info {
+        gap: 10px;
+    }
+
+    .main-slide-item.d-grid {
+        gap: 20px;
+    }
+
+    .review-images {
+        gap: 10px;
+    }
+
+    .rating.circle-icon {
+        padding: 7px 10px;
+        gap: 4px;
+    }
+
+    .main-swiper-slider .swiper {
+        margin: 30px 0 0;
+    }
+
+    .low-voc-version {
+        padding: 16px 20px;
+        font-size: 12px;
+    }
+
+    .slider-handle {
+        top: 44%;
+    }
+
+    .before-after-img, .handle-wrapper {
+        height: 245px;
+    }
+
+    .mt_cover {
+        margin-top: 68px;
+    }
+
+    .hero-section-heading {
+        max-width: 100%;
+        padding: 60px 16px 0;
+    }
+
+    .hero-section-heading p {
+        margin: 16px 0 30px;
+    }
+
+    .bg-curve {
+        bottom: -14px;
+    }
+
+    .awards {
+        gap: 20px;
+    }
+
+    .awards img {
+        height: 86px;
+    }
+
+    .hero-section {
+        height: 460px;
+    }
 
     /* comman */
+    .product-usecases .d-grid,
+    .counter-sec.d-grid,
+    form .form-grid.d-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .column-content.left .column-desc p {
+        font-size: 18px;
+    }
+
+    .text32, .marquee-content span {
+        font-size: 18px;
+    }
+
+    h2, .h2 {
+        font-size: 25px;
+    }
+
+    h3, .h3 {
+        font-size: 22px;
+    }
+
+    .sec-pb-80 {
+        padding-bottom: 30px;
+    }
+
+    .sec-pt-80 {
+        padding-bottom: 30px;
+    }
+
     .container {
         padding: 0 15px;
     }
 
     .sec-padding {
-        padding: 30px 0;
+        padding: 40px 0;
     }
 
     .container-fluid {
@@ -784,11 +1717,81 @@
 }
 
 @media screen and (max-width: 380px) {
+    .video-container {
+        height: 250px;
+    }
+
+    .play {
+        padding: 15px 15px 15px 17px;
+    }
+
+    .warranty-banner .warranty-img {
+        max-width: 84px;
+        inset: auto auto -36px 24px;
+    }
+
+    .apply-item img {
+        min-width: 30px;
+        min-height: 30px;
+    }
+
+    .apply-item .circle-icon {
+        padding: 14px;
+        margin-bottom: 20px;
+    }
+
+    .review-bottom {
+        gap: 12px;
+    }
+
+    .review-images {
+        gap: 8px;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .review-images .review_img {
+        border-radius: 6px;
+    }
+
+    .before-after-img, .handle-wrapper {
+        height: 200px;
+    }
+
+    .low-voc-wrap {
+        margin: 80px auto 30px;
+    }
+
+    .awards img {
+        height: 70px;
+    }
+
     /* comman */
+    h1, .h1 {
+        font-size: 30px;
+    }
+
+    h2, .h2 {
+        font-size: 22px;
+    }
+
+    h3, .h3 {
+        font-size: 20px;
+    }
+
+    .btn-pill {
+        padding: 5px;
+    }
 
     /* footer */
     .footer-item {
         flex: 100%;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .warranty-banner .warranty-img {
+        max-width: 75px;
+        inset: auto auto -35px 15px;
     }
 }
