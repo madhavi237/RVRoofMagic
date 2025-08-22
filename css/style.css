@@ -1743,7 +1743,7 @@ img.this_page_img.right {
   margin: auto;
 }
 
-.blog-detail-banner {
+.blog-detail-banner.hero-section {
   padding: 40px 0 0;
   height: 450px;
 }
@@ -1837,6 +1837,10 @@ img.this_page_img.right {
 .blog .banner .hero-section-heading,
 .contactus .banner .hero-section-heading {
   padding: 0 120px;
+}
+
+.blog-detail-heading {
+  padding: 0 0 80px;
 }
 
 .our-location {

@@ -169,11 +169,11 @@ li {
 }
 
 .text-black {
-  color: var(--blackText);
+  color: var(--blackText) !important;
 }
 
 .text-white {
-  color: var(--whiteText);
+  color: var(--whiteText) !important;
 }
 
 .text-orange {
@@ -271,8 +271,8 @@ li {
 }
 
 .px-0 {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .py-0 {
