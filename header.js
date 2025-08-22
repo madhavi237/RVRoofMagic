@@ -25,7 +25,7 @@ class Header extends HTMLElement {
                                 <li class="nav-item dropdown">
                                     <a href="browse-site" class="nav-link">Browse Site</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="about-us" class="nav-link">About Us</a></li>
+                                        <li><a href="about-us.html" class="nav-link">About Us</a></li>
                                         <li><a href="photo-gallery" class="nav-link">Photo and Video Gallery</a></li>
                                         <li><a href="application-process" class="nav-link">Application Process</a></li>
                                         <li><a href="testimonials" class="nav-link">Testimonials</a></li>
@@ -146,18 +146,35 @@ class Header extends HTMLElement {
         });
 
         // Highlight the active menu item based on the current page URL//
-        var currentPageURL = window.location.href;
-        var menuItems = document.querySelectorAll('#NavMenu a.nav-link');
-        menuItems.forEach(function (item) {
-            item.classList.remove('isactive');
+        document.addEventListener("DOMContentLoaded", function () {
+            const nav = this.querySelector("#NavMenu");
+            if (!nav) return;
+
+            const links = nav.querySelectorAll("a");
+            const currentPath = window.location.pathname;
+
+            links.forEach(link => {
+                const href = link.getAttribute("href");
+
+                // Skip anchor links
+                if (!href || href === "#" || href.startsWith("#")) return;
+
+                const linkUrl = new URL(link.href, window.location.origin);
+                const linkPath = linkUrl.pathname;
+
+                if (linkPath === currentPath) {
+                    link.classList.add("isactive");
+
+                    // Highlight dropdown parent
+                    const dropdownParent = link.closest(".nav-item.dropdown");
+                    if (dropdownParent) {
+                        const parentLink = dropdownParent.querySelector(".nav-link");
+                        if (parentLink) parentLink.classList.add("isactive");
+                    }
+                }
+            });
         });
-        menuItems.forEach(function (item) {
-            // Compare href attribute with current page URL
-            if (item.href === currentPageURL) {
-                // Add active class to the menu item
-                item.classList.add('isactive');
-            }
-        });
+
     }
 }
 

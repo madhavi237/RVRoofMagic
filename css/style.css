@@ -62,7 +62,7 @@ body.menu-open::before {
 }
 
 .nav-link.isactive {
-  color: rgb(254 147 0 / 80%);
+  color: var(--TextOrange);
 }
 
 ul.nav {
