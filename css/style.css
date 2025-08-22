@@ -65,6 +65,11 @@ body.menu-open::before {
   color: var(--TextOrange);
 }
 
+.dropdown-menu .nav-link.isactive {
+  background-color: var(--bgOrange);
+  color: var(--whiteText);
+}
+
 ul.nav {
   display: flex;
   align-items: center;
