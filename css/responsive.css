@@ -2420,6 +2420,19 @@
 }
 
 @media screen and (max-width: 575px) {
+    .responsive-table.sm_4 td {
+        min-width: 160px;
+
+    }
+
+    .responsive-table.sm_3 td {
+        min-width: 140px;
+    }
+
+    .responsive-table.sm_3 td:nth-of-type(3) {
+        min-width: 200px;
+    }
+
     .leave-reply-form {
         padding: 22px 16px;
     }
@@ -2542,7 +2555,6 @@
 
     .responsive-table th {
         padding: 14px 20px;
-        min-width: 200px;
     }
 
     .table-container::-webkit-scrollbar {
