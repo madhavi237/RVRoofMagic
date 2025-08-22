@@ -172,6 +172,18 @@
 }
 
 @media screen and (max-width: 1600px) {
+    img.this_page_img.left {
+        left: -65px;
+    }
+
+    img.this_page_img.right {
+        right: -65px;
+    }
+
+    .this-page-content h2 {
+        margin-bottom: 60px;
+    }
+
     .app-methods .contact-img img {
         height: 100%;
         width: 100%;
@@ -608,6 +620,24 @@
 }
 
 @media screen and (max-width: 1450px) {
+
+    img.this_page_img.left {
+        left: -50px;
+    }
+
+    img.this_page_img.right {
+        right: -50px;
+    }
+
+    .two-col {
+        gap: 30px;
+        align-items: center;
+    }
+
+    .this-page-content h2 {
+        margin-bottom: 50px;
+    }
+
     .banner.hero-section {
         height: 390px;
     }
@@ -759,6 +789,7 @@
 }
 
 @media screen and (max-width: 1350px) {
+
     .our-location iframe {
         max-height: 460px;
     }
@@ -1099,6 +1130,22 @@
 }
 
 @media screen and (max-width: 1199px) {
+    img.this_page_img.left {
+        left: -35px;
+    }
+
+    img.this_page_img.right {
+        right: -32px;
+    }
+
+    .two-col {
+        grid-template-columns: 4fr 8fr;
+    }
+
+    .two-col.reverse {
+        grid-template-columns: 8fr 4fr;
+    }
+
     .blog .banner .hero-section-heading, .contactus .banner .hero-section-heading {
         padding: 0 80px;
     }
@@ -1195,7 +1242,8 @@
         margin: 0 0 12px;
     }
 
-    .circle-list li::before {
+    .circle-list li::before,
+    .circle-list ul.stone-desc li::before {
         width: 4px;
         height: 4px;
     }
@@ -1394,6 +1442,26 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    .two-col.reverse,
+    .two-col {
+        grid-template-columns: 1fr;
+    }
+
+    img.this_page_img.left,
+    img.this_page_img.right {
+        max-width: 60%;
+    }
+
+    .main-sec-this-page.first .this-page-image,
+    .main-sec-this-page.third .this-page-image {
+        min-height: 350px;
+    }
+
+    .main-sec-this-page.second .this-page-image {
+        min-height: 300px;
+    }
+
     .have-questions .d-grid.align_item_center {
         align-items: start;
         gap: 0;
@@ -1511,6 +1579,22 @@
 }
 
 @media screen and (max-width: 991px) {
+    .main-sec-this-page.second .this-page-image {
+        min-height: 232px;
+    }
+
+    .main-sec-this-page.first .this-page-image, .main-sec-this-page.third .this-page-image {
+        min-height: 300px;
+    }
+
+    .main-sec-this-page.fourth .this-page-image {
+        min-height: 350px;
+    }
+
+    .this-page-content h2 {
+        margin-bottom: 30px;
+    }
+
     .application-process .drying-sec .section-title {
         margin-left: 0;
     }
@@ -1876,6 +1960,22 @@
 }
 
 @media screen and (max-width: 767px) {
+    .this-page-content h2 {
+        margin-bottom: 20px;
+    }
+
+    .main-sec-this-page.first .this-page-image, .main-sec-this-page.third .this-page-image {
+        min-height: 220px;
+    }
+
+    .main-sec-this-page.fourth .this-page-image {
+        min-height: 240px;
+    }
+
+    .main-sec-this-page.second .this-page-image {
+        min-height: 182px;
+    }
+
     .blog .banner .hero-section-heading, .contactus .banner .hero-section-heading {
         padding: 0 40px;
     }
@@ -1992,6 +2092,28 @@
 }
 
 @media screen and (max-width: 575px) {
+    img.this_page_img.left {
+        left: -16px;
+    }
+
+    img.this_page_img.right {
+        right: -16px;
+    }
+
+    img.this_page_img.left, img.this_page_img.right {
+        max-width: 100%;
+    }
+
+    .main-sec-this-page.second .this-page-image,
+    .main-sec-this-page.first .this-page-image,
+    .main-sec-this-page.third .this-page-image {
+        min-height: 200px;
+    }
+
+    .main-sec-this-page.fourth .this-page-image {
+        min-height: 280px;
+    }
+
     .homepage .warranty-content {
         padding-top: 20px;
     }
@@ -2451,6 +2573,14 @@
 }
 
 @media screen and (max-width: 375px) {
+    .main-sec-this-page.fourth .this-page-image {
+        min-height: 230px;
+    }
+
+    .main-sec-this-page.second .this-page-image, .main-sec-this-page.first .this-page-image, .main-sec-this-page.third .this-page-image {
+        min-height: 160px;
+    }
+
     .warranty-banner .warranty-img {
         max-width: 75px;
         inset: auto auto -35px 15px;
