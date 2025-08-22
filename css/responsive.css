@@ -2420,6 +2420,14 @@
 }
 
 @media screen and (max-width: 575px) {
+    .menu-toggle.show span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -7px);
+    }
+
+    .menu-toggle.show span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 7px);
+    }
+
     .responsive-table.sm_4 td {
         min-width: 160px;
 

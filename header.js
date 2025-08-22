@@ -146,18 +146,18 @@ class Header extends HTMLElement {
         });
 
         // Highlight the active menu item based on the current page URL//
-        // var currentPageURL = window.location.href;
-        // var menuItems = document.querySelectorAll('#NavMenu a.nav-link');
-        // menuItems.forEach(function (item) {
-        //     item.classList.remove('isactive');
-        // });
-        // menuItems.forEach(function (item) {
-        //     // Compare href attribute with current page URL
-        //     if (item.href === currentPageURL) {
-        //         // Add active class to the menu item
-        //         item.classList.add('isactive');
-        //     }
-        // });
+        var currentPageURL = window.location.href;
+        var menuItems = document.querySelectorAll('#NavMenu a.nav-link');
+        menuItems.forEach(function (item) {
+            item.classList.remove('isactive');
+        });
+        menuItems.forEach(function (item) {
+            // Compare href attribute with current page URL
+            if (item.href === currentPageURL) {
+                // Add active class to the menu item
+                item.classList.add('isactive');
+            }
+        });
     }
 }
 

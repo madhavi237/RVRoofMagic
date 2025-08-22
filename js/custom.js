@@ -7,6 +7,21 @@ link.sizes = "32x32";
 document.head.appendChild(link);
 
 
+// lock background scroll js
+document.addEventListener("DOMContentLoaded", function () {
+  const menu = document.getElementById("NavMenu");
+  const toggleBtn = document.getElementById("MenuToggle");
+
+  if (toggleBtn && menu) {
+    // Open menu
+    toggleBtn.addEventListener("click", function () {
+      menu.classList.toggle("open");
+      document.body.classList.toggle("menu-open");
+    });
+  }
+});
+
+
 // ******************** Add jquery to add or remove class to the header *******************//
 jQuery(document).ready(function ($) {
     let lastScrollTop = 0;
