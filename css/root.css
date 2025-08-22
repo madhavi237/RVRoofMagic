@@ -246,6 +246,10 @@ li {
   margin-bottom: 16px !important;
 }
 
+.mt-16 {
+  margin-top: 16px !important;
+}
+
 .p-0 {
   padding: 0 !important;
 }
