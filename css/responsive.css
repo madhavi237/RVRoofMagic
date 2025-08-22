@@ -172,6 +172,27 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .videos-sec .d-grid {
+        column-gap: 16px;
+        row-gap: 60px;
+    }
+
+    .landscap.video-container {
+        height: 680px;
+    }
+
+    .landscap-product {
+        padding: 0 0 0 30px;
+    }
+
+    .product-enhancements .cross-linking-img img {
+        height: 100%;
+    }
+
+    .landscap-product img {
+        max-width: 50%;
+    }
+
     .tech-data-sheet h2 {
         margin-bottom: 30px;
     }
@@ -1137,6 +1158,18 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .landscap.video-container {
+        height: 600px;
+    }
+
+    .product-enhancements .d-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .signup .hero-section-heading {
+        max-width: 80%;
+    }
+
     .tech-data-sheet h2 {
         margin-bottom: 20px;
     }
@@ -1457,6 +1490,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .landscap-product {
+        justify-content: space-between;
+    }
 
     .two-col.reverse,
     .two-col {
@@ -1594,6 +1630,14 @@
 }
 
 @media screen and (max-width: 991px) {
+    .signup .second_grid .video-container {
+        height: 280px;
+    }
+
+    .landscap.video-container {
+        height: 550px;
+    }
+
     .main-sec-this-page.second .this-page-image {
         min-height: 232px;
     }
@@ -1975,6 +2019,21 @@
 }
 
 @media screen and (max-width: 767px) {
+    .videos-sec .d-grid {
+        row-gap: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .second_grid {
+        margin-top: 30px;
+    }
+
+    .signup .hero-section-heading {
+        max-width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
     .this-page-content h2 {
         margin-bottom: 20px;
     }
@@ -2107,8 +2166,30 @@
 }
 
 @media screen and (max-width: 575px) {
+    .second_grid {
+        margin-top: 20px;
+    }
 
-    .tech-data-sheet .responsive-table td:last-child {}
+    .videos-sec .d-grid {
+        row-gap: 20px;
+    }
+
+    .landscap.video-container,
+    .signup .second_grid .video-container {
+        height: 300px;
+    }
+
+    .landscap-product {
+        padding: 0 0 0 16px;
+    }
+
+    .landscap-product h3 {
+        font-size: 16px;
+    }
+
+    .signup .hero-section {
+        height: 500px;
+    }
 
     .tech-data .d-flex li {
         flex: 100%;
@@ -2494,6 +2575,16 @@
 }
 
 @media screen and (max-width: 380px) {
+
+    .landscap.video-container,
+    .signup .second_grid .video-container {
+        height: 250px;
+    }
+
+    .landscap-product h3 {
+        font-size: 12px;
+    }
+
     .success-numbers .d-grid {
         grid-template-columns: repeat(1, 1fr);
     }
