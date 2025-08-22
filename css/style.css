@@ -1619,16 +1619,18 @@ img.this_page_img.right {
 
 /* blog page */
 .blog-listing-wrapper {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  display: grid;
+  grid-template-columns: 9fr 3fr;
 }
 
 .right-sidebar {
   position: sticky;
   top: 160px;
   max-height: calc(100vh - 150px);
-  max-width: 23.1%;
+  /* max-width: 23.1%; */
   width: 100%;
   overflow-y: auto;
   scrollbar-color: rgba(0, 0, 0, 0.2);
@@ -1673,6 +1675,10 @@ img.this_page_img.right {
 
 .right-sidebar .category-list li.active {
   background-color: var(--Whitebg);
+}
+
+.select_list {
+  display: block;
 }
 
 .blogs-inner-wrap {

@@ -172,6 +172,49 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .blog-listing-wrapper {
+        gap: 16px;
+    }
+
+    .shop-name h4 {
+        font-size: 16px;
+    }
+
+    .shop-image {
+        padding: 0 16px;
+    }
+
+    .blog-text {
+        padding: 16px 0 0;
+    }
+
+    .blog-content-overlay {
+        padding: 24px 30px;
+    }
+
+    .blogs-inner-wrap {
+        column-gap: 16px;
+        row-gap: 60px;
+    }
+
+    .right-sidebar {
+        top: 135px;
+    }
+
+    .right-sidebar .category-list h4 {
+        padding: 12px;
+    }
+
+    .inner-sidebar {
+        padding: 16px 20px;
+    }
+
+    .shop-box {
+        margin: 30px 0 0;
+        gap: 16px;
+        flex-direction: column;
+    }
+
     .videos-sec .d-grid {
         column-gap: 16px;
         row-gap: 60px;
@@ -645,6 +688,30 @@
 }
 
 @media screen and (max-width: 1450px) {
+    .right-sidebar .category-list h4 {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .right-sidebar .category-list {
+        margin: 12px 0 0;
+    }
+
+    .shop-name {
+        padding: 16px 20px;
+    }
+
+    .blog-content-overlay {
+        padding: 20px 20px;
+    }
+
+    .blog-text {
+        padding: 8px 0 0;
+    }
+
+    .shop-box {
+        margin: 20px 0 0;
+    }
 
     img.this_page_img.left {
         left: -50px;
@@ -814,6 +881,19 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .right-sidebar .category-list li {
+        margin-bottom: 6px;
+    }
+
+    .shop-image img {
+        height: 100px;
+    }
+
+    .blogs-inner-wrap {
+        column-gap: 16px;
+        row-gap: 40px;
+    }
+
     .tech-data .d-flex {
         row-gap: 16px;
     }
@@ -1158,6 +1238,10 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .blog-listing-wrapper {
+        grid-template-columns: 9fr 3.5fr;
+    }
+
     .landscap.video-container {
         height: 600px;
     }
@@ -1490,6 +1574,35 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .b-date, .b-time {
+        font-size: 12px;
+    }
+
+    .blog-content-overlay {
+        padding: 20px 16px;
+    }
+
+    .blogs-inner-wrap {
+        column-gap: 12px;
+        row-gap: 30px;
+    }
+
+    .right-sidebar .search-input {
+        display: block;
+    }
+
+    .right-sidebar .category-list {
+        margin: 8px 0 0;
+    }
+
+    .right-sidebar .category-list h4 {
+        font-size: 13px;
+    }
+
+    .shop-name h4 {
+        font-size: 13px;
+    }
+
     .landscap-product {
         justify-content: space-between;
     }
