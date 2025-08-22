@@ -172,6 +172,10 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .tech-data-sheet h2 {
+        margin-bottom: 30px;
+    }
+
     img.this_page_img.left {
         left: -65px;
     }
@@ -789,6 +793,9 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .tech-data .d-flex {
+        row-gap: 16px;
+    }
 
     .our-location iframe {
         max-height: 460px;
@@ -1130,6 +1137,14 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .tech-data-sheet h2 {
+        margin-bottom: 20px;
+    }
+
+    img.down_icon {
+        height: 20px;
+    }
+
     img.this_page_img.left {
         left: -35px;
     }
@@ -2092,6 +2107,13 @@
 }
 
 @media screen and (max-width: 575px) {
+
+    .tech-data-sheet .responsive-table td:last-child {}
+
+    .tech-data .d-flex li {
+        flex: 100%;
+    }
+
     img.this_page_img.left {
         left: -16px;
     }
