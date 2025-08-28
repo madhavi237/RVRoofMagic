@@ -286,7 +286,7 @@ input::placeholder {
   padding-top: 40px;
 }
 
-.sec-pb-80 {
+.py .sec-pb-80 {
   padding-bottom: 80px;
 }
 
@@ -1234,6 +1234,10 @@ textarea {
 
 .devider {
   border-right: 8px solid;
+}
+
+.devider-bottom {
+  border-bottom: 8px solid #D2D3D3;
 }
 
 .corner-logo {

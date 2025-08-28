@@ -280,6 +280,16 @@ li {
   padding-bottom: 0;
 }
 
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .fw-regular {
   font-weight: 400;
 }
